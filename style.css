@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+/* Page Header */
+h1 {
+  font-size: 2.5rem;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Button Styling */
+#helloBtn {
+  padding: 12px 24px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#helloBtn:hover {
+  background-color: #0f5fc2;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  #helloBtn {
+    width: 100%;
+    padding: 14px;
+  }
+}
