@@ -32,7 +32,7 @@ p {
 #helloBtn {
   padding: 12px 24px;
   background-color: #1a73e8;
-  color: rgb(255, 0, 0);
+  color: red;
   border: none;
   border-radius: 50px;
   font-size: 1rem;
