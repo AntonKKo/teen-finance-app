@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Add a click event listener
   helloButton.addEventListener("click", function () {
-    alert("Hello! Thanks for visiting my project.");
+    alert("This button works!");
   });
 });
